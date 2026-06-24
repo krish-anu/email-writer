@@ -1,0 +1,25 @@
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.iml
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Backend build output
+email-writer-backend/target/
+email-writer-backend/.mvn/wrapper/maven-wrapper.jar
+
+# Frontend dependencies and builds
+email-writer-frontend/node_modules/
+email-writer-frontend/dist/
+email-writer-frontend/dist-ssr/
+
+# Extension build output
+email-writer-extension/node_modules/
+email-writer-extension/dist/
+email-writer-extension/out/
